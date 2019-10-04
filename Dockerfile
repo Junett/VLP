@@ -8,4 +8,4 @@ RUN mkdir -p apps
 COPY . .
 
 # runs a sample app on container start
-CMD ["python3", "main.py"]
+CMD ["python3", "mainscript.py"]
